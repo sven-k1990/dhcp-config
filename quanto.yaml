@@ -1,0 +1,47 @@
+subnet: 192.168.91.0
+mask: 255.255.255.0
+router: 192.168.91.254
+broadcast: 192.168.91.255
+dns: 192.168.1.189
+ntp: 192.168.91.254
+users:
+    - name: nabiev_t
+      mac: 68:5B:35:8E:A2:2C
+      ip: 192.168.91.20
+    - name: nabiev_sanjar
+      mac: F0:18:98:EE:AD:9D
+      ip: 192.168.91.22
+    - name: shek_l
+      mac: E0:D5:5E:87:C1:FF
+      ip: 192.168.91.23
+    - name: ubaydullaev_jamol
+      mac: B4:2E:99:4F:80:92
+      ip: 192.168.91.24
+    - name: mahmudova_salima
+      mac: E0:D5:5E:87:C4:14
+      ip: 192.168.91.27
+    - name: makeev_oleg
+      mac: F8:0D:60:E1:DD:85
+      ip: 192.168.91.33
+    - name: preyomnaya
+      mac: E0:D5:5E:87:C1:C5
+      ip: 192.168.91.43
+    - name: abdurahmanova_g
+      mac: E0:D5:5E:87:0A:40
+      ip: 192.168.91.29
+    - name: oripov_hondamir
+      mac: B8:97:5A:AF:FB:00
+      ip: 192.168.91.25
+    - name: orinboeva_dilnora
+      mac: E0:D5:5E:BB:9B:9B
+      ip: 192.168.91.40
+    - name: mirhalikova_surayo
+      mac: E0:D5:5E:AF:00:F8
+      ip: 192.168.91.41
+ 
+      
+      
+      
+     
+    
+      

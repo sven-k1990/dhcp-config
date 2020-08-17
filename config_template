@@ -1,0 +1,21 @@
+ddns-update-style none;
+log-facility local7;
+
+subnet {{subnet}} netmask {{mask}}{
+
+        option routers                  {{router}};
+        option subnet-mask              {{mask}};
+        option broadcast-address        {{broadcast}};
+        option domain-name-servers      {{dns}};
+        option ntp-servers              {{ntp}};
+        default-lease-time 86400;
+        max-lease-time 86400;
+
+        
+        {%for user in users%}
+        host {{user.name}} {
+                hardware ethernet {{user.mac}};
+                fixed-address {{user.ip}};
+        }
+        {% endfor %}
+}
